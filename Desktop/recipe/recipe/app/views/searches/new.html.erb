@@ -1,0 +1,11 @@
+
+
+<% @matches.each do |m| %>
+   	 	<p class="col-xs-2 recipe">
+   	 		<%= m["recipeName"] %>  </br>             
+   	 		<%= image_tag m["imageUrlsBySize"]['90'] %>
+   	 		
+
+   	 </p>
+   	 	
+   	 <% end %>
